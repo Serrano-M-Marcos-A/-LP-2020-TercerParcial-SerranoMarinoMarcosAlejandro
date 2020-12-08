@@ -1,0 +1,659 @@
+using System;
+					
+public class Program
+{
+class program 
+{
+static  int Main ()
+{
+   Main () ;
+return(0);
+}
+
+static void Main (String [ ]  args)  {
+           byte opcion;
+int decision;
+Console.WriteLine("¿Que  problema quieres realizar? 1.Problema 1 /n 2. Problema 2 /n 3. Problema 3 /n 4. Problema 4 /n 5 .Problema  5 /n .  6. Problema 6  /n 7. Problema 7  /n   8. Problema 8  /n 9. Problema 9 /n 10. Problema 10 /n  11. Problema 11 /n  12. Prroblema 12 /n 13. Problema 13 /n 14. Problema 14 /n 15. Problema 15 /n " );
+opcion = Convert.ToByte(Console.ReadLine ( ) );
+	decision= Int32.Parse(Console.ReadLine());
+switch (opcion) 
+{ 
+case 1: 
+Numerosdetresdiferentes();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+break;
+case 2: 
+NumeroParOImpar();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 3:
+Potencian();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 4: 
+Operaciones2numeros();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break; 
+case 5: 
+Areas();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 6:
+Mayormenor();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+break;
+case 7: 
+Unocienasd();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 8: 
+Cienunodes();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 9:
+Sumacien();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 10: 
+Frases();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 11: 
+Sumaimpares();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 12:
+Unocienasdw();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 13: 
+Ciencerodesw();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 14: 
+Sumacienw();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 15:
+Frasesw();
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+
+break;
+case 16:
+Console.WriteLine(" Desea realizar otra opcion? Presione (0) si si desea realizar otra operacion y (1) para salir");
+decision = Int32.Parse(Console.ReadLine());
+if(decision==0) {
+         Main();
+
+                      }
+           else {
+
+           if (decision==1)
+           {
+           break;
+           }
+           }
+ 
+Sumaimpp();
+break;
+default: 
+Console.WriteLine("Vuelve a intentalo");
+break;
+
+}
+}//fin del menú j
+
+static void Numerosdetresdiferentes() {
+
+double  a,b,c; 
+Console.WriteLine("ingrese numero A:");
+a = double.Parse(Console.ReadLine()); 
+Console.Clear(); Console.WriteLine("ingrese numero B:"); 
+b = double.Parse(Console.ReadLine()); Console.Clear();
+if(a==b) {
+while (b==a)      {
+Console.Clear();
+Console.WriteLine("Ya ingreso ese numero antes ingrese otro \n ingrese numero B:");
+b = double.Parse(Console.ReadLine()); Console.Clear();
+		}
+
+
+	}
+
+Console.WriteLine("ingrese numero C:"); 
+c = double.Parse(Console.ReadLine()); 
+	if(c==b || c==a) {
+	while (c==b || c==a) {
+		Console.Clear();
+		Console.WriteLine("Ya ingreso ese numero antes ingrese otro \n ingrese numero C:");
+  			b = double.Parse(Console.ReadLine()); 
+			Console.Clear();
+    			      }
+
+		          }
+
+
+	if(a>=b && a>=c) {
+		Console.WriteLine("El mayor es el numero A:"+a);
+		}
+              else if(b>c ) {
+		Console.WriteLine("El mayor es el numero B:"+b);
+
+
+		}
+ else {
+		Console.WriteLine("El mayor es el numero C:"+c);
+}
+
+if(a<=b && a<=c){
+
+		Console.WriteLine("El Menor es el numero A:"+a);
+
+		}
+else
+ if(b<c)   {
+		Console.WriteLine("El Menor es el numero B:"+b);
+		}
+else    {
+		Console.WriteLine("El Menor es el numero C:"+c);
+
+
+		}
+		return ;
+
+
+	}
+
+static void NumeroParOImpar()
+{
+int numpar = 0;
+	Console.WriteLine("Determinaremos si un número entero es par o impar");
+	Console.WriteLine("Ingresa un numero entero");
+
+	numpar = Int32.Parse(Console.ReadLine());
+	if(numpar % 2 == 0)
+	{
+	     Console.WriteLine("El numero es par");
+	}
+	else
+	{
+		Console.WriteLine("El numero es impar");
+	}
+
+} 	
+
+static void Potencian()
+{
+	double numero,potencia,resultado; 
+Console.WriteLine("ingrese numero"); 
+numero = double.Parse(Console.ReadLine()); 
+Console.WriteLine("ingrese potencia");
+potencia = double.Parse(Console.ReadLine());
+resultado=Math.Pow(numero, potencia);
+Console.WriteLine("resultado de elevar "+ numero, " a la potencia" +potencia+ ": "+resultado);
+}
+
+static void Operaciones2numeros()
+ {
+        int Num1 = 0;
+		int Num2 = 0;
+		Console.WriteLine("Ingresa un número");
+		Num1 = Int32.Parse( Console.ReadLine());
+		Console.WriteLine("Escribe otro número: ");
+		Num2 = Int32.Parse( Console.ReadLine()); 
+		Console.WriteLine("Indica que operación quieres que realice el programa");
+		Console.WriteLine("sumar");
+		Console.WriteLine("restar");
+		Console.WriteLine("multiplicar");
+		Console.WriteLine("dividir");
+		string Opera = "";
+		Opera = Console.ReadLine();
+		switch (Opera)
+		{
+			case "sumar":
+				Console.WriteLine(Num1+Num2);
+			break;
+			case "restar":
+				Console.WriteLine(Num1-Num2);
+				break;
+			case "multiplicar":
+				Console.WriteLine(Num1*Num2);
+				break;
+			case "dividir":
+				Console.WriteLine(Num1/Num2);
+				break;
+			default:
+				Console.WriteLine("Sigue las instr ucciones e intentalo de nuevo");
+				break;	
+		}
+
+return ;
+
+}
+
+static void Areas()
+ {
+int Num4 = 0;
+int Num5 = 0;
+
+		Console.WriteLine("Base");
+		Num4 = int.Parse(Console.ReadLine());
+		Console.WriteLine("Altura");
+		Num5 = int.Parse(Console.ReadLine());
+		Console.WriteLine("Escriba si quiere calcular area o perimetro");
+		string Op = "";
+		Op = Console.ReadLine();
+
+		switch (Op)
+		{
+			case "area":
+				Console.WriteLine(Num4*Num5/2);
+				break;
+			case "perimetro":
+				Console.WriteLine(Num4*3);
+				break;
+
+			default:
+				Console.WriteLine("Vuelve a intentalo");
+				break;
+		}
+
+}
+
+static void Mayormenor()
+{
+	int mayor= 0;
+	int menor= 0;
+Console.WriteLine("Ingresa 3 numeros");
+		Console.WriteLine("numero 1");
+		string a = Console.ReadLine();
+		Console.WriteLine("numero 2");
+		string b = Console.ReadLine();
+		Console.WriteLine("numero 3");
+		string c = Console.ReadLine();
+    mayor= Int32.Parse(Console.ReadLine());
+	menor= Int32.Parse(Console.ReadLine());
+		switch (1)
+		{
+
+			case "mayor":
+
+				Console.WriteLine("el numero mayor es ");
+				break;
+
+			case "menor":
+				Console.WriteLine("el numero menor es");
+				break;
+
+			default:
+					Console.WriteLine("Los numeros son iguales");
+					break;
+			}
+	    }
+
+
+
+static void Unocienasd()
+ {
+int i=0;
+int detener=100;
+for(i=0; i<=detener; i=i+1)
+      {
+    Console.WriteLine(+i);
+       }
+ return ;
+}
+static void Cienunodes()
+{
+int y=100;
+int parar=0;
+           for(y=100; y>=parar; y = y-1)
+		{
+		Console.WriteLine(+y);
+		}
+return ;
+ }
+static void Sumacien() 
+{
+int x=0;
+int alto=100;
+	for(x=1; x<=alto; x=x+1)
+		{
+			int n= 0;
+			n=x+1;
+			Console.WriteLine(x*n/2);
+		}
+}
+
+static void Frases() {
+int z=0;
+int stop = 0;
+int respuesta=0;
+int contador=0;
+
+		for(z=1; z>stop; z++)
+		{
+			Console.WriteLine("Ingrese frase");
+			Console.ReadLine();
+			contador++;
+			Console.WriteLine("Quiere continuar? (1.-si/2.-no");
+			respuesta = Int32.Parse(Console.ReadLine());
+
+			if(respuesta==2)
+			{
+				Console.WriteLine("frase: "+contador);
+				stop=1000;
+			}
+		}
+return ;
+}
+
+static  void Sumaimpares()
+{
+int num1=0;
+        int num2=0;
+		int f=0;
+		int pares=0;
+		int impares=0;
+		int numNat=0;
+	    int contador = 0;
+		num1=Int32.Parse(Console.ReadLine());
+		num2=Int32.Parse(Console.ReadLine());
+		Console.WriteLine(" " +num1);
+		Console.WriteLine(" " +num2);
+		for(f=num1+1; f<=num2-1; f++)
+		{
+			Console.WriteLine(+f);
+			numNat=numNat+1;
+			if (f==0)
+			{
+				pares=pares+1;
+			}
+			else
+			{
+				impares=impares+1;
+			}
+		}
+		Console.WriteLine("Los numeros naturales son: " + numNat);
+		Console.WriteLine("Los numeros pares son: " + contador);
+		Console.WriteLine("La suma de numeros impares es: " +impares);
+                         }
+}
+
+
+
+
+static void Unocienasdw() {
+int i = 0;
+		while(i<=100)
+		{
+			Console.WriteLine(i);
+			i++;
+		}
+}
+
+static void Ciencerodesw() {
+int n = 100;
+		while(n>=0)
+		{
+			Console.WriteLine(n);
+			n =n-1;
+		}
+}
+
+static void Sumacienw() {
+int cont = 1;
+		int suma = 0;
+		while(cont<=100)
+		{
+			suma = suma + cont;
+			Console.WriteLine(suma);
+			cont++;
+		}
+}
+
+static void Frasesw() {
+bool stop = true;
+		string respuesta = "";
+		int contador = 0;
+		while(stop==true)
+		{
+			Console.WriteLine("Ingrese una frase");
+			Console.ReadLine();
+			contador++;
+			Console.WriteLine("Quiere ingresar otra frase?");
+			respuesta = Console.ReadLine();
+
+			if(respuesta == "no")
+			{
+
+				Console.WriteLine("El total de frases son: " + contador);
+				stop = false;
+			}
+		}
+} 
+
+static void Sumaimpp() {
+
+int m =0;
+		int n=0;
+		int y=0;
+		int pr = 0;
+		int sum = 0;
+		Console.WriteLine("Introduzca el primer número");
+		m = Int32.Parse(Console.ReadLine());
+		Console.WriteLine("Introduzca el segundo número");
+		n = Int32.Parse(Console.ReadLine());
+		y = m+1;
+		while(y<n)
+		{
+			Console.WriteLine(y);
+			y++;
+			if(y %2 == 0)
+			{
+				pr++;
+			}
+			else
+			{
+
+				sum = sum + y;
+			}
+		}
+		Console.WriteLine("Los numeros pares son: " +pr);
+		Console.WriteLine("La suma de los impares es: " +sum);
+}
+}
+	 //PROGRAM
+     // fin EXAM //SERRANO MARINO MARCOS ALEJANDRO IIN 4B EXAMEN 3erPARCIAL
